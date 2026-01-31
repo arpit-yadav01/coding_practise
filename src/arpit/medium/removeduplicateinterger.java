@@ -1,0 +1,22 @@
+package src.arpit.medium;
+import java.util.Scanner;
+public class removeduplicateinterger {
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the integers ");
+        int num = sc.nextInt();
+
+        String number = String.valueOf(num);
+        String result =" ";
+
+        for(int i =0 ; i <number.length(); i++){
+            char digit = number.charAt(i);
+
+            if(result.indexOf(digit) == -1){
+                    result = result + digit;
+            }
+        }
+        System.out.println("integer after the remove duplicates " + result );
+    }
+    
+}
