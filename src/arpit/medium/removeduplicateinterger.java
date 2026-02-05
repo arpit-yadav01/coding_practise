@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class removeduplicateinterger {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the integers ");
+        System.out.println("enter the number ");
         int num = sc.nextInt();
 
         String number = String.valueOf(num);
@@ -16,7 +16,7 @@ public class removeduplicateinterger {
                     result = result + digit;
             }
         }
-        System.out.println("integer after the remove duplicates " + result );
+        System.out.println("Number after the remove duplicates " + result );
     }
     
 }

@@ -4,34 +4,22 @@ import java.util.Scanner;
 
 public class removedulicatearray {
     public static void main(String [] args){
-     Scanner sc = new Scanner (System.in);
-     System.out.println("enter the size of array");
-        int n = sc.nextInt();
-        int [] arr = new int [n];
+     int [] arr= {1,2,3,4,5,5,6};
+      System.out.println("Array after removing duplicates:");
+        
+     for(int i=0;  i< arr.length; i++){
+            boolean  isduplicates= false;
 
-        System.out.println("enter the number");
-     for(int i =0; i<n ; i++){
-        arr[i]= sc.nextInt();
-     }
+            for(int j =0 ; j<i ; j++){
+                if (arr[i] == arr[j]){
+                      isduplicates = true;
+                      break;
 
-     System.out.println("array after remove duplicates");
-
-     for(int i =0; i<n; i++){
-        Boolean isduplicates= false;
-
-        for(int j= 0; j< i ;j++){
-            if (arr[i] == arr[j]){
-                isduplicates = true ;
-                break;
+                }
+            } 
+            if(!isduplicates){
+                System.out.println (arr[i] + " "); 
             }
-
-        }
-        if(!isduplicates){
-            System.out.println(arr[i] + " ");
-        }
-
-
-
      }
     }
     
