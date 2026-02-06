@@ -1,0 +1,15 @@
+package src.arpit.medium.searching;
+
+public class binarysearch {
+    public static void main(String[] args){
+        int [] arr ={1,2,3,4,5,5};
+
+        int target= 5;
+
+        for(int i - ; i<arr.length; i++){
+            if(arr)
+        }
+
+    }
+    
+}
