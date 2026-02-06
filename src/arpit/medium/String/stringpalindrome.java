@@ -1,4 +1,4 @@
-package src.arpit.medium;
+package src.arpit.medium.String;
 import java.util.Scanner;
 
 public class stringpalindrome {

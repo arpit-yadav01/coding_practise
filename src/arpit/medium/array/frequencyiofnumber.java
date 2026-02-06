@@ -1,4 +1,4 @@
-package src.arpit.medium;
+package src.arpit.medium.array;
 
 public class frequencyiofnumber {
     public static void main(String [] args){

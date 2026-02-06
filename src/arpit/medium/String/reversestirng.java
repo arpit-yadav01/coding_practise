@@ -1,4 +1,4 @@
-package src.arpit.medium;
+package src.arpit.medium.String;
 
 public class reversestirng {
     public static void main(String[] args){

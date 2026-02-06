@@ -1,4 +1,4 @@
-package src.arpit.medium;
+package src.arpit.medium.array;
 import java.util.Scanner;
 public class duplicatestring {
     public static void main(String[] args){

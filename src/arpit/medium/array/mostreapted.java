@@ -1,4 +1,4 @@
-package src.arpit.medium;
+package src.arpit.medium.array;
 
 public class mostreapted {
     public static void main(String[] args){

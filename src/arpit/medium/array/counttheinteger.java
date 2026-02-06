@@ -1,4 +1,4 @@
-package src.arpit.medium;
+package src.arpit.medium.array;
 
 public class counttheinteger {
     public static void main(String[] args){

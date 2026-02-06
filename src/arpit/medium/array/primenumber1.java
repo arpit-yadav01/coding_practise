@@ -1,6 +1,6 @@
 //print prime number 1 t 100
 
-package src.arpit.medium;
+package src.arpit.medium.array;
 
 public class primenumber1 {
     public static void main(String[] args){

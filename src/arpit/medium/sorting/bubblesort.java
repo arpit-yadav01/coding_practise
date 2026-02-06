@@ -1,4 +1,4 @@
-package src.arpit.medium;
+package src.arpit.medium.sorting;
 
 import java.util.Arrays;
 
