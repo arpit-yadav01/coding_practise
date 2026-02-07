@@ -1,6 +1,6 @@
 package src.arpit.medium.array;
 
-public class mostreapted {
+public class findtheinteger {
     public static void main(String[] args){
     int [] arr= {1,3,4,4,5,6,4};
     int target= 4;
