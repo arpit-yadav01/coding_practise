@@ -6,6 +6,8 @@ public class removeduplicateinterger {
         System.out.println("enter the number ");
         int num = sc.nextInt();
 
+        // int [] num = {1,2,3,3,4,5};
+
         String number = String.valueOf(num);
         String result =" ";
 
