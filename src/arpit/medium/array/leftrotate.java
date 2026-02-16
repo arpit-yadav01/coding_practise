@@ -9,7 +9,7 @@ public class leftrotate {
 
         int[] result = new int[n];
 
-        // copy from k to end
+      
         for(int i = 0; i < n - k; i++){
             result[i] = arr[i + k];
         }

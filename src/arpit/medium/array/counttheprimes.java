@@ -10,6 +10,7 @@ public class counttheprimes {
         for (int num = 2; num < n; num++) {
             if (isPrime(num)) {
                 count++;
+                 System.out.println(num + " is prime");
             }
         }
 
@@ -24,5 +25,6 @@ public class counttheprimes {
                 return false;
         }
         return true;
+        
     }
 }
