@@ -21,8 +21,8 @@ public class mostrepeatedinterger {
             }
             
         }
-        System.out.println(freq);
-            System.out.println(maxcount);
+        System.out.println("the nummber is  "+ freq +" is comes " +maxcount +" times");
+            // System.out.println(" "+maxcount);
     }
 
     
