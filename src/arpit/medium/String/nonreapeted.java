@@ -2,7 +2,7 @@ package src.arpit.medium.String;
 
 public class nonreapeted {
     public static void main(String[] args){
-        String str ="arpit";
+        String str ="arpait";
         char result = ' ';
 
         for(int i =0; i <str.length() ; i++){
