@@ -1,27 +1,31 @@
 package src.arpit.medium.oops;
 
 public class inheritance {
-    public static void main(String[] args){
-        dog d = new dog();
+
+    public static void main(String[] args) {
+
+        Dog d = new Dog();
 
         d.eat();
         d.sleep();
         d.bark();
     }
-    
 }
 
-    class Animal{
-        public void eat(){
-            System.out.println ("the animal is eat food");
-        }
-        public void sleep(){
-            System.out.println("the animal is sleeping");
-        }
+class Animal {
+
+    public void eat() {
+        System.out.println("The animal eats food");
     }
-        class dog extends Animal {
-            public void bark(){
-                System.out.println("the animal is barking");
-            }
-        }
-    
+
+    public void sleep() {
+        System.out.println("The animal is sleeping");
+    }
+}
+
+class Dog extends Animal {
+
+    public void bark() {
+        System.out.println("The dog is barking");
+    }
+}
