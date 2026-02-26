@@ -17,6 +17,7 @@ public class removeduplicateinterger {
             if(result.indexOf(digit) == -1){
                     result = result + digit;
             }
+            
         }
         System.out.println("Number after the remove duplicates " + result );
     }
