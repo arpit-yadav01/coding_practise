@@ -30,7 +30,7 @@ public class armstrongnumber {
 
 
     public static void main(String [] args){
-        int num= 153;
+        int num= 154;
         int original= num;
         int sum= 0;
 
