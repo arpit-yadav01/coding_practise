@@ -2,22 +2,37 @@ package src.arpit.medium.array;
 import java.util.Scanner;
 public class duplicatestring {
     public static void main(String[] args){
-        Scanner sc= new Scanner(System.in);
-        System.out.println("enter the worsds");
-        String str =  sc.nextLine();
+    //     Scanner sc= new Scanner(System.in);
+    //     System.out.println("enter the worsds");
+    //     String str =  sc.nextLine();
 
-        String result ="";
+    //     String result ="";
 
-        for(int i = 0 ; i< str.length(); i++)
-        {
-            char ch= str.charAt(i);
+    //     for(int i = 0 ; i< str.length(); i++)
+    //     {
+    //         char ch= str.charAt(i);
 
-            if(result.indexOf(ch)== -1){
-                result = result +ch;
-            }
+    //         if(result.indexOf(ch)== -1){
+    //             result = result +ch;
+    //         }
+    //     }
+    //         System.out.println ("string after remove the duplicates " + result  );
+
+    // }
+
+
+
+
+    String str= "arpagt";
+    String result="";
+    for(int i = 0 ; i<str.length(); i++){
+        char ch = str.charAt(i);
+
+        if(result.indexOf(ch) == -1){
+            result = result+ch;
         }
-            System.out.println ("string after remove the duplicates " + result  );
-
     }
+    System.out.println ("after removing the result " + result);
     
+}
 }
