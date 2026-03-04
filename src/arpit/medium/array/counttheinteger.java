@@ -2,7 +2,7 @@ package src.arpit.medium.array;
 
 public class counttheinteger {
     public static void main(String[] args){
-        int num=123;
+        int num=12673;
 
         int count =0;
 
