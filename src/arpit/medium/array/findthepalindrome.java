@@ -2,7 +2,7 @@ package src.arpit.medium.array;
 
 public class findthepalindrome {
     public static void main(String [] args){
-        int num = 112134;
+        int num = 11121314;
         String s = String.valueOf(num);
 
         for(int i=0 ; i<s.length(); i++){
