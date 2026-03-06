@@ -27,5 +27,7 @@ public class kadanealgo {
         for (int i = start; i <= end; i++) {
             System.out.print(arr[i] + " ");
         }
+        
     }
 }
+
