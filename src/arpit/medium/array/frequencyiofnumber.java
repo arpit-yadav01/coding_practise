@@ -17,6 +17,7 @@ public class frequencyiofnumber {
                     if (j < i) {   // appeared before → skip
                         alreadyCounted = true;
                         break;
+                        
                     }
 
                     count++;
