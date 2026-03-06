@@ -8,6 +8,7 @@ public class GCD {
         while(b!= 0){
             int temp = b;
             b = a % b;
+            
             a=temp;
         }
         System.out.println("GCD " + a);
