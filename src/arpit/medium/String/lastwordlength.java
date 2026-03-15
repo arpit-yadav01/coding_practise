@@ -11,6 +11,8 @@ public class lastwordlength {
         while(i>= 0 && s.charAt(i)==' ' ){
             i--;
         }
+
+
         while(i>=0 && s.charAt(i) != ' '){
             count++;
             i--;
