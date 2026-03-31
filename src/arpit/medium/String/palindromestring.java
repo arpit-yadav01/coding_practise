@@ -10,6 +10,7 @@ public class palindromestring {
             reverse = reverse + str.charAt(i);
         }
 
+
         if (str.equals(reverse)) {
             System.out.println("It is a palindrome");
         } else {
