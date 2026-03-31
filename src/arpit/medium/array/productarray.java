@@ -16,11 +16,8 @@ public class productarray {
             }
             result[i] = product;
         }
-
         for(int num : result){
             System.out.println(num + " ");
         }
-
-    }
-    
+    } 
 }

@@ -1,15 +1,17 @@
 package src.arpit.medium.array;
-import java.util.Scanner;
+
+import java.util.*;
+
 public class factorial {
-    public static void main(String [] args){
-    
-    int fact = 5;
-    
-    for(int i=1; i<fact; i++ ){
-        fact= fact*i;
+    public static void main(String[] args) {
+
+        int n = 5;
+        int fact = 1;
+
+        for(int i = 1; i <= n; i++) {
+            fact = fact * i;
+        }
+
+        System.out.println(fact);
     }
-    System.out.println(fact);
-    
-    }
-    
 }
